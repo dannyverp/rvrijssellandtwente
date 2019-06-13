@@ -1,0 +1,23 @@
+@import "./../../sass/config/colours";
+@import "./../../sass/config/typography";
+
+.hero {
+  width: 100%;
+  height: 38em;
+  display: flex;
+  background: url('../../images/hero.jpg') no-repeat bottom;
+  background-size: cover;
+  z-index: 0;
+
+  &:before {
+    z-index:1;
+    content: '';
+    width: 100%;
+    height:100%;
+    opacity: 0.5;
+    background: $tertiary; /* Old browsers */
+    background: -moz-linear-gradient(top, $tertiary 0%, $secondary 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, $tertiary 0%,$secondary 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, $tertiary 0%,$secondary 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+}

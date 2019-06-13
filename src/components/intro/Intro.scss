@@ -1,0 +1,90 @@
+@import "./../../sass/config/colours";
+@import "./../../sass/config/typography";
+
+.intro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  position: absolute;
+
+  &__container {
+    width: 80%;
+    height: 10em;
+    background: #FFF;
+    border-radius: 8px;
+    margin-top: -5em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.10), 0 3px 3px rgba(0,0,0,0.15);
+    display: flex;
+    overflow: hidden;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF8B4D;
+    box-shadow: inset -7px 0 9px -7px rgba(0,0,0,0.12);
+    flex-grow: 2;
+  }
+
+  &__content-container {
+    flex-grow: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    color: $primary;
+    margin: 0;
+    display: inline;
+  }
+
+  &__subtitle {
+    color: $secondary;
+    margin: 0;
+    display: inline;
+  }
+
+  &__body {
+  }
+
+  &__footer {
+    flex-grow: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FAFAFA;
+  }
+
+  &__read-more {
+    display:inline-block;
+    padding:0.5em 1em;
+    border:0.16em solid #FF8B4D;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    color:#FF8B4D;
+    text-align:center;
+    transition: all .5s;
+    background: none;
+    border-radius: 5px;
+
+    &:hover {
+      border-color: $secondary;
+      color: $secondary;
+    }
+
+    &:active {
+      border-color: $secondary;
+      color: $secondary;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+}

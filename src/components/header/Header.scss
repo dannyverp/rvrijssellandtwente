@@ -1,0 +1,54 @@
+@import "./../../sass/config/colours";
+@import "./../../sass/config/typography";
+
+.site-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0 8px;
+  position: absolute;
+  z-index: 2;
+  background: rgba(254,254,254,.85);
+  margin-top: 3em;
+
+  &__container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__logo {
+    height: 2.3em;
+  }
+
+  &__title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__subtitle {
+    display: block;
+    margin: 0;
+    font-size: .9em;
+    color: $secondary;
+    padding-left: 14px;
+  }
+
+  &__social {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &-icon {
+      margin-right: 5px;
+      height: 1.2em;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
