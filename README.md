@@ -1,8 +1,18 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/dannyverp/rvrijssellandtwente/master/src/images/011-life-vest.svg?sanitize=true" width="75">
 </p>
+<h1 align="center">RVR IJsselland-Twente</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub watchers](https://img.shields.io/github/watchers/dannyverp/rvrijssellandtwente.svg?style=social)
+![GitHub forks](https://img.shields.io/github/forks/dannyverp/rvrijssellandtwente.svg?style=social)
+![GitHub stars](https://img.shields.io/github/stars/dannyverp/rvrijssellandtwente.svg?style=social)
+
+
+![GitHub followers](https://img.shields.io/github/followers/dannyverp.svg?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/dannyverp.svg?style=social)
+
+This is the repository of the website of the lifeguard associations in the region of IJsselland and Twente in the Netherlands. The website is build upon a ReactJS framework.
+The website's main purpose is to promote the collaboration between the lifeguard associations within these regions in different fields.
 
 ## Available Scripts
 
