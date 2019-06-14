@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://raw.githubusercontent.com/dannyverp/rvrijssellandtwente/master/src/images/011-life-vest.svg?sanitize=true" width="75">
+</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
